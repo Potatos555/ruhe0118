@@ -12,3 +12,20 @@
  **Bold Text** or __Bold Text__ 
  
  *Italics Text* or _Itealics Text_ 
+
+ - Item 1 
+ - item 2 
+ - Item 3 
+  - Subitem 1 
+  - Subitem 2 
+
+1. First Item 
+1. Second Item 
+1. Second second Item 
+1. Third Item 
+
+[Link Text] (http://www.google.com/)
+
+![An image of a cat] (http://placekitten.com/200/300)
+
+![an image of monalisa](assets/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
