@@ -1,41 +1,34 @@
-# ruhe0118
+# Quiz8
 
- This is my first local change to the repo 
+ ## Imaging Tech
 
- # Heading 1 
- ## Heading 2 
- ### Heading 3 
- #### Heading 4 
- ##### Heading 5 
- ###### Heading 6  
-
- **Bold Text** or __Bold Text__ 
+ **Draw a wheel of fortune.**  
  
- *Italics Text* or _Itealics Text_ 
+ Since planning to choose Pacita Abad Wheels of fortune as a target of the main project, we think about how to use animation on the wheels. Drawing a wheel of fortune game may be helpful because we want to make the small circles in the different big wheels revolving in different speeds. The fortune wheel example helps to figure out how to achieve  user input and use random values to drive animation.
 
- - Item 1 
- - item 2 
- - Item 3 
-  - Subitem 1 
-  - Subitem 2 
+- Image 1
 
-1. First Item 
-1. Second Item 
-1. Second second Item 
-1. Third Item 
+Define low speed, spin hasn’t start yet
+![An image of non-spin Fortune Wheel](<assets/Oox $.png>)
 
-[Link Text] (http://www.google.com/)
+- Image 2
 
-![An image of a cat] (http://placekitten.com/200/300)
-
-![an image of monalisa](assets/Mona_Lisa_by_Leonardo_da_Vinci_500_x_700.jpg)
+Define high speed, spin has finished and the result is 800.
+![An image of Fortune Wheel after Spin](assets/Powef.png)
 
 
-```
-function hellowWorld()
-console.log("Hello, world!");
-```
+## Coding Tech
 
-Add a for loop to the `draw()` fuction.
+**The spinning effect is achieved by updating the rotation of the canvas element using CSS in the rotate() function, and then continuously updating the rotation angle in the frame() function.**
 
-> This is a blockquote
+ 1. Rotate() function is responsible for rotating the canvas element according to the current angle (ang). It's called after every frame update to adjust the rotation of the wheel.
+
+ 2. Frame() function handles the animation frame by frame. It calculates the new angle and updates the rotation accordingly. It also handles acceleration and deceleration to achieve a spinning effect.
+
+
+*[*This is the link of the example*] (https://stackoverflow.com/questions/33850201/how-to-draw-a-wheel-of-fortune)*
+
+- Image 3
+
+This is a part of the code we need.
+![Sreenshot of a part of the code](<assets/Screenshot for Code.png>)
